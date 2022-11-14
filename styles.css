@@ -93,6 +93,11 @@ header {
 .section-three {
     background-color: lightcoral;
     height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 
 }
 
@@ -107,6 +112,9 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
+    display: flex;
+    justify-content: center;
+
     
 }
 
