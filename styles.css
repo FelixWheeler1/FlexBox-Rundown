@@ -40,9 +40,15 @@ li {
 }
 .container-navigation {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: flex-start;
+   max-width: 100%;
+   max-height: 100%;
+   flex-shrink :4;
+    object-fit: contain;
+    
+    
 }
 
 .push {
@@ -71,6 +77,7 @@ header {
 
 .flexgrow-container {
     display: flex;
+    
 }
 
 .box1 {
@@ -102,12 +109,23 @@ header {
 
 .section-two {
     background-color: orangered;
-    height: 700px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0 ;
+    flex: 1  ;
 }
 
+img {
+    display: flex;
+    flex-wrap: wrap;
+   max-height: 100%; 
+   flex-grow: 4 ;
+   object-fit: contain;
+   aspect-ratio: 2/1;
+}
 /* section 3 youtube video */
 
 .section-three {
