@@ -18,7 +18,27 @@ li {
     
 }
 
-.container-navigation{
+.media-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+
+}
+
+.media-container .mediacontent {
+    flex: 2 2;
+    padding: 10px;
+
+}
+
+.mediacontent {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    font-size: 20px;
+}
+.container-navigation {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -116,6 +136,15 @@ iframe {
     justify-content: center;
     align-items: center;
 
+    
+}
+.caption {
+    color: brown;
+    font-size: 35px;
+    text-align: center;
+    font-weight:1000;
+    font-family:'Courier New', Courier, monospace;
+    
     
 }
 
