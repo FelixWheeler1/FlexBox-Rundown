@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "FlexBox-Rundown",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../../../Desktop/images"
+		},
+		{
+			"name": "audio",
+			"path": "../../../Desktop/audio"
+		}
+	],
+	"settings": {}
+}
